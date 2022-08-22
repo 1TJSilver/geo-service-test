@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d96b3168-d3bb-426f-96e6-966f2a04bdfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geo-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GeoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GeoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/entity/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/entity/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/entity/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/entity/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/geo/GeoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/geo/GeoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/geo/GeoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/geo/GeoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/i18n/LocalizationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/sender/MessageSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/sender/MessageSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/sender/MessageSenderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/sender/MessageSenderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +60,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.Tests.messageSenderTest">
-    <configuration name="Tests.geoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MessageSenderTest">
+    <configuration name="GeoServiceTest.geoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geo-service" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="GeoServiceTest" />
       <option name="METHOD_NAME" value="geoServiceTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalizationServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geo-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocalizationServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geo-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MessageSenderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,6 +99,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="locationServiceTestN2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.messageSenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geo-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="messageSenderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,9 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MessageSenderTest" />
+        <item itemvalue="JUnit.LocalizationServiceTests" />
+        <item itemvalue="JUnit.GeoServiceTest.geoServiceTest" />
         <item itemvalue="JUnit.Tests.messageSenderTest" />
         <item itemvalue="JUnit.Tests.locationServiceTestN2" />
-        <item itemvalue="JUnit.Tests.geoServiceTest" />
       </list>
     </recent_temporary>
   </component>
